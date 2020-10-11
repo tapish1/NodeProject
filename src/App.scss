@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+
+  
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+$sidebar-bg-color: white;
+$submenu-bg-color: white;
+$submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+$sidebar-color: black;
+$highlight-color: black;
+$icon-bg-color: rgba(255, 255, 255, 0.05);
+$icon-size: 35px;
+
+@import '~react-pro-sidebar/dist/scss/styles.scss';
+body {
+  margin: 0;
+  color: #353535;
+  font-family: 'Roboto', sans-serif;
+}
+.projects-grid {
+  display: flex;
+}
+.vl {
+  border-right: 1px solid #d8d8d8;
+}
+.Icon{
+  margin-left: 5%;
+  margin-right: 7%;
+}
+#root {
+  height: 100%;
+}
+
+.menuI:hover {
+  background-color: #d8d8d8;
+  border-left: 5px solid #f5c84e;
+}
+
+.menuI:hover span{
+  color: #f5c84e;
+}
+
+
+
+
+
+  
+
+
