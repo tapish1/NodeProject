@@ -2,9 +2,7 @@
   text-align: center;
 }
 
-
-  
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 $sidebar-bg-color: white;
 $submenu-bg-color: white;
@@ -14,19 +12,30 @@ $highlight-color: black;
 $icon-bg-color: rgba(255, 255, 255, 0.05);
 $icon-size: 35px;
 
-@import '~react-pro-sidebar/dist/scss/styles.scss';
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+html {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   color: #353535;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  min-height: 100%;
 }
 .projects-grid {
   display: flex;
+  height: 100%;
+  min-height: 100%;
 }
 .vl {
   border-right: 1px solid #d8d8d8;
 }
-.Icon{
+.Icon {
   margin-left: 5%;
   margin-right: 7%;
 }
@@ -39,14 +48,6 @@ body {
   border-left: 5px solid #f5c84e;
 }
 
-.menuI:hover span{
+.menuI:hover span {
   color: #f5c84e;
 }
-
-
-
-
-
-  
-
-

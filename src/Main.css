@@ -1,14 +1,12 @@
-.container{
-    padding:3%;
-    padding-top: 1.6%;
-
+.container {
+  padding: 3%;
+  padding-top: 1.6%;
 }
 
 .projects-grid {
-    display: flex;
-    background-color: #f0f0f0;
-  }
+  display: flex;
+}
 
-  .container h1{
-      font-size: 28px;
-  }
+.container h1 {
+  font-size: 28px;
+}
